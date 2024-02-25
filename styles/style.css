@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1160px;
+  margin-bottom: 87px;
+  
+  
+}
+
+.title-h1 {
+  font-size: 52px;
+  margin-bottom: 100px;
+}
+
+.shop-item {
+  min-height: 264px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  
+}
+
+.shop-item01 {
+  background-image: url("../images/item01.png");
+  position: relative;
+  z-index: 2;
+}
+.shop-item02 {
+  background-image: url("../images/item02.png");
+}
+.shop-item03 {
+  background-image: url("../images/item03.png");
+}
+
+.sale {
+  font-family: "Rubik";
+  background: #083c6e;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+.nosale {
+  visibility: hidden;
+}
+
+.col-info {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #083c6e;
+}
+
+.col-info h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+.col-info span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  display: flex;
+  background: #3270aa;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.dots-img img {
+    width: 180px;
+    height: auto;
+    position: absolute;   
+    top: 80px;
+    left: 80px;
+    
+    
+}
+
+
+@media (max-width: 768px) {
+  .col-info h3 {
+    font-size: 10px;
+  }
+  .col-info span {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+  .sale {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+
+  .title-h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    margin-bottom: 50px;
+  }
+
+  .dots-img img {
+    width: 100px;
+    height: auto;
+    position: absolute;   
+    top: 96px;
+    left: 2px;
+    
+
+
+}
